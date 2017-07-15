@@ -8,7 +8,6 @@ import idaapi
 def create_segment(startea,
                    endea,
                    segment_name=None,
-                   *,
                    base_paragraph=0x0,
                    use32=1,
                    align=0,
